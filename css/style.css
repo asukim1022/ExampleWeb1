@@ -1,0 +1,129 @@
+@charset "UTF-8";
+* {margin:0;padding:0; font-family:san-serif;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+header{background:url(../images/header.jpg) no-repeat; background-size:cover; height:500px; padding:0; margin:0;}
+header div{width:auto; margin:0 auto;}
+header div h1{padding-top:100px; font-size:58px; text-align:center; font-weight:bold; letter-spacing:0.05em; color:#282828;}
+header div h2{padding-top:10px; font-size:18px; text-align:center; color:#333; font-weight:100;}
+header div nav{width:800px; height:60px; background-color:#282828; border-radius:40px; margin:0 auto; margin-top:60px;}
+header div nav ul{margin-left:83px;}
+header div nav ul li{float:left; line-height:59px; margin-left:21px;}
+header div nav ul li a{color:#999; font-size:16px;}
+header div nav ul li a.action{color:#fff;}
+header div nav ul li a:hover{color:#fff;}
+
+/** own **/
+.wrapper{background:url(../images/img02.png) no-repeat; background-size:cover; height:auto; width:100%; position: relative; display: inline-block;}
+.wrapper .own{width:1200px; -webkit-transition: all 0.3s; transition: all 0.3s; display: flex; height: auto; position: relative; left: 50%; margin-left: -600px;}
+.wrapper .own div{padding-top:100px; padding-bottom: 50px; border-bottom: 1px solid #666;}
+.wrapper .own div h2{font-size:40px; color:#282828; float:left;}
+.wrapper .own div ul{margin-top:100px; width:1200px; -webkit-transition: all 0.3s; transition: all 0.3s; display: inline-block;}
+.wrapper .own div ul li{float:left; width:260px; height:300px; margin-left:55px; -webkit-transition: all 0.3s; transition: all 0.3s; display: inline-table;}
+.wrapper .own div ul li:last-child{margin-left:0px; float:right;}
+.wrapper .own div ul li:first-child{margin-left:0px; float:left;}
+.wrapper .own div ul li img{width: 100%;}
+.wrapper .own div ul li p{padding-top:30px; line-height:30px; color:#333; font-size:15px;}
+.wrapper .own div ul li span{display: inline-block;}
+.wrapper .own div ul li span a{float:left; text-align:center; width:130px; height:45px; font-size:15px; line-height:43px; display:block; border-radius:10px; background-color:#333; color:#fff; margin-top:40px;}
+
+/** two **/
+.wrapper .two{height:auto; width:1200px; -webkit-transition: all 0.3s; transition: all 0.3s; position: relative; left: 50%; margin-left: -600px; display: inline-block; margin-bottom: 50px;}
+.wrapper .two .left{padding-top:50px; width:800px; float:left;}
+.wrapper .two .left h2{font-size:40px; color:#282828;}
+.wrapper .two .left h3{font-size:16px; margin-top:10px; font-weight:100;}
+.wrapper .two .left img{margin-top:40px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper .two .left p{margin-top:25px; font-size:14px; line-height:30px;}
+.wrapper .two .left p span{text-decoration:underline; color:#F00;}
+.wrapper .two .left a{margin-top:55px; float:left; text-align:center; border-radius:10px; line-height:40px; width:100%; height:40px; font-size:15px; display:block; background-color:#333; color:#fff;}
+.wrapper .two .right{width:350px; float:right; mragin-right:20px; padding-top:50px;}
+.wrapper .two .right h2{font-size:28px; color:#282828; float:left;}
+.wrapper .two .right h3{font-size:16px; color:#333; margin-top:15px; float:left; font-weight:100;}
+.wrapper .two .right p{margin-top:40px; font-size:15px; line-height:20px; color:#333; float:left; padding-bottom:40px;}
+.wrapper .two .right ul{margin-top:50px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper .two .right ul li{text-decoration:underline; font-size:15px; margin-bottom:25px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.wrapper .two .right ul li a{color:#F00;}
+.wrapper .two .right ul li:hover{text-decoration:none;}
+
+/** three **/
+.three{height:800px; background-color:#222; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s; padding-bottom: 50px;}
+.three div.three_left{width:1200px; margin:0 auto; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div.three_left ul{width:540px; float:left; margin-top:125px;}
+.three div.three_left ul li{width:220px; height:130px; float:left; margin-left:50px; margin-bottom:60px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div.three_left ul li img{float:left;}
+.three div.three_left ul li h4{float:left; padding-left:15px; font-weight:100; color:#999; font-size:14px; margin-bottom:30px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div.three_left ul li p{color:#999; font-weight:100; font-size:12px;}
+.three div.three_right{width:500px; float:left; margin-top:110px; margin-left:70px; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div.three_right h2{color:#fff; font-size:40px;}
+.three div.three_right p{color:#999; font-size:15px; float:left; margin-top:20px; line-height:28px; margin-bottom:20px;}
+.three div.three_right ul{padding-top:60px;}
+.three div.three_right ul li{padding-top:25px;}
+.three div.three_right ul li a{color:#F00; text-decoration:underline; font-weight:100; font-size:15px;}
+.three div.three_right ul li a:hover{text-decoration:none;}
+
+footer {height:100px; background-color:#121212; padding-top: 22px;}
+footer div {width:700px; margin:0 auto; }
+footer div p {font-size:14px; color:#999; text-align:center;}
+
+
+@media screen and (max-width: 1500px) {
+    .wrapper .own {width: 900px; margin-left: -450px;}
+    .wrapper .own div ul {width: 900px;}
+    .wrapper .own div ul li {width: 200px;}
+    .wrapper .own div ul li {margin-left: 33px;}
+    
+    .wrapper .two {width: 900px; margin-left: -450px;}
+    .wrapper .two .left {width: 55%;}
+    .wrapper .two .left img {width: 100%;}
+    
+    .three div.three_left {width: 900px;}
+    .three div.three_left ul {width: 100%;}
+    .three div.three_left ul li {margin-left: 0px; margin-right: 50px; width: 248px; margin-bottom: 30px;}
+    .three div.three_left ul li:nth-child(3) {margin-right: 0px;}
+    .three div.three_left ul li:nth-child(6) {margin-right: 0px;}
+    .three div.three_left ul li {height: auto;}
+    .three div.three_left ul li h4 {width: 152px;}
+    .three div.three_right {margin-left: 0px; float: none; width: 900px; margin: 0 auto;}
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper .own {width: 700px; margin-left: -350px;}
+    .wrapper .own div ul {width: 100%;}
+    .wrapper .own div ul li {margin-left: 0px; margin-right: 0px; padding: 12px; width: 46%; height: auto;}
+    .wrapper .two .left {padding-top: 50px; width: 100%;}
+    .wrapper .two .right {padding-top: 50px; width: 100%; padding-bottom: 30px;}
+    .wrapper .two {width: 700px; display: inline-block; left: 50%; position: relative; margin-left: -350px;}
+    .wrapper .two .right h2, .wrapper .two .right h3, .wrapper .two .right p {float: none;}
+    .wrapper .two .right p {padding-bottom: 20px;}
+    .wrapper .two .right ul {margin-top: 10px;}
+    .wrapper .two {border: 0px;}
+    .wrapper .own div {margin-bottom: 35px;}
+    .wrapper .two .left {border-bottom: 1px solid #666; padding-bottom: 40px;}
+    .three div.three_right, .three div.three_left {width: 700px;}
+    .three div.three_left ul li {width: 50%; margin: 0px; padding: 0px;}
+    .three_1 p {display: none;}
+    
+    header div nav ul li {float: none; line-height: 38px; margin-left: 0px; text-align: center;}
+    header div nav ul {margin: 0px;}
+    header div nav {height: auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
